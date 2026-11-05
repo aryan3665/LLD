@@ -1,0 +1,45 @@
+1. Single Responsibility Principle (SRP) kya hai?
+SRP ka simple meaning hai:
+
+A class should have only one reason to change.
+
+Hindi mein:
+
+Ek class ki sirf ek responsibility honi chahiye, yani us class ko change karne ka ek hi main reason hona chahiye.
+
+Lekin iska matlab ye nahi hai ki ek class mein sirf ek method hona chahiye.
+
+Ek class mein multiple methods ho sakte hain, bas un methods ka purpose ek hi responsibility se related hona chahiye.
+2. Real-life example se samjho
+Maan lo ek restaurant hai.
+
+Restaurant mein alag-alag logon ki alag responsibilities hain:
+
+Chef
+
+Food prepare karna
+
+
+Cashier
+
+Payment receive karna aur bill banana.
+
+
+
+
+Delivery Person
+
+Food deliver karna.
+
+
+
+Ab socho agar ek hi person:
+- Khana banaye.
+- Bill generate kare.
+- Payment receive kare.
+- Food deliver kare.
+Toh agar payment system change hota hai, toh us person ka kaam bhi affect ho sakta hai, aur responsibilities mix ho jayengi.
+
+Software development mein bhi exactly yahi problem hoti hai.
+
+Isliye hum responsibilities ko separate classes mein divide karte hain.
